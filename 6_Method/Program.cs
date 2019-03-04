@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace _4_iteration
+namespace _6_Method
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Iteration!");
+            Console.WriteLine("Hello Method!");
         }
     }
 }

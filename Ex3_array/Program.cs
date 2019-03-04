@@ -9,7 +9,7 @@ namespace Ex3_array
             // กรอกชื่อ 3 รอบ แล้วโชว์ชื่อ 3 ครั้ง
 
             string[] names = new string[3];
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < names.Length; i++)
             {
                 Console.Write("First Name : ");
                 names[i] = Console.ReadLine();
