@@ -7,6 +7,19 @@ namespace _0_statement
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            // -------------------------------------
+            //
+            // Statement Type
+            //
+            // -------------------------------------
+
+            int i; // declare variable
+            i = 5; // Assuginment
+            Console.WriteLine("Text"); // Call method
+
+            // Statement can write in Single line
+            int a; a = 1;
         }
     }
 }
