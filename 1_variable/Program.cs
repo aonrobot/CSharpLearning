@@ -35,6 +35,21 @@ namespace _1_variable
             char ch; ch = 'C';
             string str; str = "String";
 
+            // convert
+
+            int n; n = 5;
+            double o; o = n; // Widening (Implicit conversion)
+            o = 5.23; //n = o; (Narrowing) 
+            n = (int)0; // Explicit conversion
+
+            // Number to string
+
+            int p = 25;
+            string q; q = p.ToString();
+
+            // String to Number
+            q = "25"; p = int.Parse(q);
+
         }
     }
 }
