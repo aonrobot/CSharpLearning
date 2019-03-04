@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _3_operator
+namespace _2_operator
 {
     class Program
     {
